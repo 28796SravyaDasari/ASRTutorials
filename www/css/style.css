@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+.background.scroll-content {
+    background: url('../img/bg-intro.jpg') no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+
+}
+
+.viewbtn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #70BC4F;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 8px 30px 8px 30px;
+    border: solid #70bc4f 2px;
+    text-decoration: none;
+  }
+  .ansbtn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #EA624C;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 8px 30px 8px 30px;
+    border: solid #EA624C 2px;
+    text-decoration: none;
+  }
+  .resbtn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #3B5998;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 8px 30px 8px 30px;
+    border: solid #3B5998 2px;
+    text-decoration: none;
+  }

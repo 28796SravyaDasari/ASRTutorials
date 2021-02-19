@@ -1,0 +1,17 @@
+<ion-view view-title="Profile">
+  <ion-content ng-init="loadprofile()">
+    <ion-list>
+      <center><img ng-src="http://student.asrtutorials.com/images/profileImage/{{profiledata.StudentProfileImage}}" ng-if="profiledata.StudentProfileImage"></center>
+      <ion-item >
+          <p><b>School Name:</b> {{profiledata.SchoolName}}</p>
+          <p><b>Name:</b> {{profiledata.StudentFirstName}} {{profiledata.StudentLastName}}</p>
+          <p><b>Email:</b> {{profiledata.StudentEmailID}}</p>
+          <p ng-if="profiledata.StudentPhone"><b>Phone no:</b> {{profiledata.StudentPhone}}</p>
+          <p ng-if="profiledata.StudentAddress"><b>Address:</b> {{profiledata.StudentAddress}}</p>
+          <Center>  <p onclick="window.open('http://student.asrtutorials.com','_system')">Change Password</p>
+         <p> <small>Intuitive Learning By ASR</small></p></center> 
+         <p></p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

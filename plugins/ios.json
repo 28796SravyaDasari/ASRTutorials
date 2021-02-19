@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.jay.GS.asrtutorials"
+    }
+  },
+  "dependent_plugins": {}
+}
